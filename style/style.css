@@ -152,12 +152,14 @@
     display: flex;
     justify-content: center;
     position: relative;
+    padding-bottom:5% ;
+    margin: 4vh;
 
 }
 
 .inner-love {
     height: 100%;
-    width: 78%;
+    width: 83%;
     display: flex;
 
 }
@@ -211,6 +213,43 @@
 
 .inner-love-img img {
     width: 100%;
+}
+
+.inside-box {
+    padding: 1rem 1.5rem ;
+    background-color: #FF900E;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+
+/* Featue list */
+
+.inner-fact {
+    height: 15vh;
+    width: auto;
+    padding-left: 12%;
+}
+
+.inner-fact-list {
+    height: 45vh;
+    width: auto;
+    padding: 0 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.inner-fact-list-box  {
+    border: 1px solid #FF900E;
+    width: 8.7rem;
+    height: 7.8rem;
+    padding: 4px;
+    border-radius: 7px;
+
 }
 
 
