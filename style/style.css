@@ -7,10 +7,12 @@
     font-family: 'Work Sans', sans-serif;
     border: none;
     outline: none;
+    /* background-color: #FFF4E7; */
 }
 
+
 .header {
-    background-color:rgba(255, 144, 14, 0.10);
+    background-color:rgba(255, 144, 14, 0);
     margin-bottom: 3vh;
 }
 
@@ -94,6 +96,8 @@
     width: 100%;
 }
 
+/* Main start */
+
 /* Feature section start */
 
 .feature {
@@ -135,11 +139,22 @@
 .inner-feature-right {
     height: 100%;
     width: 50%;
+    padding-left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     gap: 1rem;
+}
+
+.inner-feature-right button {
+    height: 2.5rem;
+    width: 5.9rem;
+    border-radius: 4px;
+    font-weight: bolder;
+    background-color: #FF900E;
+    color: #fff;
+
 }
 
 /* Love and Enjoy */
@@ -224,18 +239,19 @@
     left: 45%;
 }
 
-/* Featue list */
+/* Fact list */
 
 .inner-fact {
     height: 15vh;
     width: auto;
-    padding-left: 12%;
+    padding-left: 11%;
 }
 
 .inner-fact-list {
     height: 45vh;
     width: auto;
-    padding: 0 13%;
+    padding: 0 11%;
+    margin-bottom: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -251,6 +267,47 @@
     border-radius: 7px;
 
 }
+
+/* sponspors */
+
+.inner-sponspors {
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.inner-sponspor-list {
+    height: 25vh;
+    width: auto;
+    padding: 0 11%;
+    margin-bottom: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sponspors-img {
+    width: 13%;
+}
+
+.sponspors-img img {
+    width: 100%;
+}
+
+/* Footer Start */
+
+footer {
+    height: 20vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background-color: #D2CCA1;
+    color: #424242;
+}
+
+
 
 
 
@@ -275,7 +332,7 @@
     }
      
     .navbar {
-        height: 13vh;
+        height: 10vh;
         width: auto;
         padding: 0;
         margin-bottom: 2%;
@@ -296,7 +353,7 @@
     
     
      .banner {
-        height: 100vh;
+        height: 80vh;
         width: auto;
         display: flex;
         flex-direction: column;
@@ -322,10 +379,89 @@
         justify-content: center;
         align-items: flex-end;
     }
+
+    /* Featue  */
+
+
+    .feature {
+        /* height: 80vh; */
+        width: 97vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content:center ;
+        /* margin: 2vh; */
+    }
+    
+    .inner-feature {
+        /* height: 100%; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    .inner-feature-left {
+        height: 100%;
+        /* width: 50%; */
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+    
+    .feature-left-img {
+        width: 49%; 
+    }
+    
+    .feature-left-img img {
+        width: 100%;
+        /* height: 25%; */
+    }
+    
+    
+    .inner-feature-right {
+        height: 100%;
+        width: 50%;
+        padding-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap: 1rem;
+    }
+    
+    .inner-feature-right button {
+        height: 2.5rem;
+        width: 5.9rem;
+        border-radius: 4px;
+        font-weight: bolder;
+        background-color: #FF900E;
+        color: #fff;
+    
+    }
+    
     
      
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Mesium screen */
